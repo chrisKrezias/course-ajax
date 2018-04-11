@@ -46,7 +46,7 @@
         //     requestError(err, 'image');
         // };
         unsplashRequest.open('GET', `https://api.unsplash.com/search/photos?page=1&query=${searchedForText}`);
-        unsplashRequest.setRequestHeader('Authorization', 'Client-ID 57b46942eeeced157423780086560c7bcc53216eb1642035cd68dd4540bf96d9');
+        unsplashRequest.setRequestHeader('Authorization', 'Client-ID c93b7891db01823f875039614a42cc90f924967807252d6b44c3873460c69717');
         unsplashRequest.send();
 
         const articleRequest = new XMLHttpRequest();
